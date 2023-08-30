@@ -1,0 +1,27 @@
+{
+  "name": "url-shortner-node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/702260/Url-Shortner-Node-Js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/702260/Url-Shortner-Node-Js/issues"
+  },
+  "homepage": "https://github.com/702260/Url-Shortner-Node-Js#readme",
+  "dependencies": {
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}

@@ -23,5 +23,8 @@
     "mongoose": "^7.5.0",
     "shortid": "^2.2.16",
     "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }

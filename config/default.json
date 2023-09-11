@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://priyankasoni2016:Priyanka@82@cluster0.f5ifjuy.mongodb.net/?retryWrites=true&w=majority",
+    "mongoURI": "mongodb+srv://priyankasoni2016:Priyanka%4082@cluster0.f5ifjuy.mongodb.net/?retryWrites=true&w=majority",
     "baseUrl": "http://localhost:3000"
 }

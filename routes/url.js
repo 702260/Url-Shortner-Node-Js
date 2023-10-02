@@ -11,6 +11,20 @@ const Url = require('../models/Url');
 router.post('/shorten', (req, res) => {
     const {longUrl } = req.body;
     const baseUrl =    config.get('baseUrl');
+       // Check base Url
+       if(!validUrl.isUri(baseUrl)) {
+            return res.status(401).json('Invalid base Url');
+       }
 
+   // Create url code
+   const urlCode = shortid.generate();
+
+   // Check long url
+     if(validUrl.isUri(longUrl)) {
+
+     } else {
+
+     }
+       
 });
 module.exports = router;

@@ -41,12 +41,13 @@ router.post('/shorten', async (req, res) => {
                  }
                  
          } catch (err)
-            {
-
+            { 
+               console.error(err);
+               res.status(500).json('Server error');
             }
            
      } else {
-
+          res.status(401).json('Invalid long url');
      }
        
 });

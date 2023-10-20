@@ -1,7 +1,8 @@
-POST localhost:3000/api/url/shorten
+POST http://localhost:3000/api/url/shorten
 Content-Type: application/json
 
 {
+"longUrl" : "https://www.amazon.in/Sony-PS5%C2%AE-Console-Cricket-Bundle/dp/B0CJ9JM214/ref=sr_1_1_sspa?crid=25T2Z2MGJ26VW&keywords=playstation&qid=1697801578&sprefix=playstation%2Caps%2C201&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
 
     
 }

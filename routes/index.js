@@ -11,16 +11,13 @@ route.get('/:code', async (req, res) => {
     try{
         const url = await Url.findOne({ urlCode: req.params.code });
 
-        if(url)
-          {
+        if(url) {
             return res.redirect(url.longurl);
-          } else
-          {
+          } else {
             return res.status(404).json('No url found');
           }
         }
-         catch (err)
-            {
+         catch (err) {    
         console.error(err);
         res.status(500).json('Server error');
             }  
